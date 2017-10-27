@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="app-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+	<title>Document</title>
+	<script src="js/flexible_css.debug.js"></script>
+	<script src="js/flexible.debug.js"></script>
+	<style>
+		.item-section{
+			position: relative;
+			min-height: 100%;
+			background-color: #00285a;
+			font-size: 12px;
+			padding: .1rem;
+		}
+		.item-section-header{
+			text-align: center;
+		}
+		.item-section-header img{
+			width: 10rem;
+		}
+		.flag{
+			display: table;
+			width: 100%;
+			margin-bottom: 1px;
+			background-color: #fff;
+		}
+		.flag .flag-item img{
+			width: 4rem;
+			height: 2.4rem;
+		}
+		.flag .flag-item.figure{
+			width: 2.4rem;
+			height: 2.4rem;
+		}
+		.flag .flag-item {
+		    display: table-cell;
+		    padding: .16rem 0;
+		    vertical-align: top;
+		    background-color: #fff;
+		}
+		.flag .flag-item.figcaption{
+			position: relative;
+			width: 133rem;
+			padding-right: .2rem;
+			padding-left: .2rem;
+		}
+		.flag .flag-title a{
+			color: #333;
+			line-height: 1.25;
+			overflow: hidden;
+			-webkit-line-clamp:2;/*最大文本行数*/
+			display: flex;
+		}
+		.flag .flag-price{
+			padding: .15rem 0 .2rem 0;
+		}
+		.flag .flag-price span{
+			background-color: #00285a;
+			display: inline-block;
+			vertical-align: middle;
+			border-radius: .02rem;
+			padding: .02rem .08rem .013rem;
+			color: #fff;
+			font-weight: 700;
+			font-size: 12px;
+			margin-right: .06rem;
+		}
+		.flag .flag-price strong{
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 16px;
+			font-weight: 700;
+			color: #00285a;
+		}
+		.flag .flag-price small{
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 12px;
+			font-weight: 700;
+			color: #00285a;
+		}
+		.flag .flag-type{
+			color: #00285a;
+		}
+		.flag .flag-btn{
+			position: absolute;
+			width: 2.1rem;
+			height: .64rem;
+			line-height: .64rem;
+			color: #fff;
+			background-color: #00285a;
+			font-size: 14px;
+			font-weight: 700;
+			bottom: .13rem;
+			right:.2rem;
+			text-align: center;
+			border-radius: .1rem;
+		}
+		.html-content ul{
+			background-color: #00285a;
+		}
+	</style>
+</head>
+<body>
+	<div class="html-content">
+		<div class="item-section">
+			<div class="item-section-header">
+				<h2>
+					<img src="./img/noApply.png" alt="">
+				</h2>
+			</div>
+			<ul>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">循环贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥20,000</strong>
+							<small>等额本息</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">迷你家装贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥15,000</strong>
+							<small>利随本清</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">循环贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥20,000</strong>
+							<small>等额本息</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">迷你家装贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥15,000</strong>
+							<small>利随本清</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">循环贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥20,000</strong>
+							<small>等额本息</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">迷你家装贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥15,000</strong>
+							<small>利随本清</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">循环贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥20,000</strong>
+							<small>等额本息</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+				<li class="flag" role="link" href="##">
+					<a href="##" class="figure flag-item">
+						<img src="./img/pro4.png" alt="">
+					</a>
+					<div class="figcaption flag-item">
+						<div class="flag-title">
+							<a href="##">迷你家装贷</a>
+						</div>
+						<div class="flag-price">
+							<span>贷款金额</span>
+							<strong>¥15,000</strong>
+							<small>利随本清</small>
+						</div>
+						<div class="flag-type">每月1日还款</div>
+						<a href="##" class="flag-btn">马上还款</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+</body>
+</html>
